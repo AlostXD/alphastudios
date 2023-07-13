@@ -1,0 +1,19 @@
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+    min-height: 100vh;
+}
+
+.productDesc {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    max-width: 400px;
+    padding: 0;
+    margin: 0;
+}
