@@ -1,5 +1,4 @@
 import './componentsStyles/pontosPositivos.css'
-import checkImage from './componentsImg/check.png'
 
 function pontosPositivos(texto) {
     return (
@@ -8,10 +7,10 @@ function pontosPositivos(texto) {
             <p>Você pode começar HOJE a construir uma nova
                 fonte de renda para você e sua família</p>
             <div className='contentPontosItens'>
-                    <li className='item'><img src={checkImage} alt='check'></img>{texto.text}</li>
-                    <li className='item'><img src={checkImage} alt='check'></img>{texto.text2}</li>
-                    <li className='item'><img src={checkImage} alt='check'></img>{texto.text3}</li>
-                    <li className='item'><img src={checkImage} alt='check'></img>{texto.text4}</li>
+                <li>{texto.text}</li>
+                <li>{texto.text2}</li>
+                <li>{texto.text3}</li>
+                <li>{texto.text4}</li>
             </div>
         </div>
     )
