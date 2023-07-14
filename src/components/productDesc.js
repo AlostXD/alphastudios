@@ -1,11 +1,9 @@
 import './componentsStyles/productDesc.css'
-import imagem from './componentsImg/pe.png'
-
 
 function productDesc() {
     return (
         <div className='product'>
-            <img src={imagem} className='imgProduct' alt='imgteste'></img>
+            <img></img>
             <div className='productDesc'>
                 <h3>Aqui ficaria alguma descrição sua ou do seu Produto com Imagens</h3>
                 <h6>Mãe, Influencer e expert em vendas online</h6>
@@ -28,6 +26,5 @@ function productDesc() {
         </div>
     );
 }
-
 
 export default productDesc

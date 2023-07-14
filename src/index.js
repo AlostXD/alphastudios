@@ -2,11 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Internet from './components/internet';
-import ProductDesc from './components/productDesc';
-import PontosPositivos from './components/pontosPositivos';
-import Carrousel from './components/carrousel';
-import Apresentacao from './components/apresentacao'
+import Internet from './components/internet.js'
+import ProductDesc from './components/productDesc'
+import PontosPositivos from './components/pontosPositivos'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -25,8 +23,6 @@ root.render(
       simples e totalmente
       verdadeira.'
     />
-    <Carrousel />
-    <Apresentacao />
   </React.StrictMode>
 );
 
