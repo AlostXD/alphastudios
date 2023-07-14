@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Internet from './components/internet.js'
 import ProductDesc from './components/productDesc'
+import PontosPositivos from './components/pontosPositivos'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,6 +13,16 @@ root.render(
     <App />
     <Internet />
     <ProductDesc />
+    <PontosPositivos
+      text='Sem precisar aparecer'
+      text2='Sem conversar com
+      nenhum cliente'
+      text3='Sem promessas falsas como
+      vários gurus fazem por aí'
+      text4='De maneira honesta,
+      simples e totalmente
+      verdadeira.'
+    />
   </React.StrictMode>
 );
 
