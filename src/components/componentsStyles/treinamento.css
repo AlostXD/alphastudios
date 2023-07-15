@@ -1,0 +1,25 @@
+.treinamento {
+    color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.treinamento h1 {
+    padding-bottom: 12px;
+    border-bottom: 3px solid #EE4D30;
+    max-width: 300px;
+}
+
+.p1, .p2, .p3, .p4 {
+    max-width: 400px;
+    padding: 12px 16px;
+    border-radius: 12px;
+}
+
+.p1, .p2 {
+    background-color: #FF3D03;
+}
+
+.p3, .p4 {
+    background-color: #EE4D30;
+}

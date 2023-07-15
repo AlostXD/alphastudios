@@ -1,0 +1,10 @@
+.bonusCard {
+    background-color: #fff;
+    color: #000;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
