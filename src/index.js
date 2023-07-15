@@ -34,6 +34,7 @@ root.render(
     <Treinamento />
     <Curso />
     <Bonus />
+    <div className='bonusCards'> 
     <BonusCard titulo="bonus1" paragrafo="Modulo bônus de Como se afiliar e vender pela
                     Magazine Luiza. Um método com dicas para
                     você vender todos os dias sem aparecer." precoA="De R$600,00" precoAA="Por R$0,00" />
@@ -52,7 +53,9 @@ root.render(
     <BonusCard titulo="bonus5" paragrafo="FERRAMENTA SECRETA com
                     inteligência artificial que acabou de
                     chegar no Brasil. Você vai aprender a
-                    criar tudo com apenas 1 clique." precoA="De R$799,00" precoAA="Por R$0,00" />
+                    criar tudo com apenas 1 clique." precoA="De R$799,00" precoAA="Por R$0,00" />      
+    </div>
+
   </React.StrictMode>
 );
 
